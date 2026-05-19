@@ -1,0 +1,13 @@
+{
+  "plans": [
+    {
+      "id": "example-001",
+      "date": "2026-05-18",
+      "start": "09:00",
+      "end": "10:00",
+      "activity": "示例：学英语",
+      "reminder": 15,
+      "done": false
+    }
+  ]
+}

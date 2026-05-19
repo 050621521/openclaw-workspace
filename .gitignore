@@ -1,0 +1,11 @@
+# OpenClaw workspace
+.agents/
+.claude/
+.hermes/
+.openclaw/
+.trae/
+memory/
+skills/
+*.skill
+skills-lock.json
+COMMANDS.md
