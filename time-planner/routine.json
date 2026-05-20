@@ -6,8 +6,7 @@
       "start": "00:00",
       "end": "07:00",
       "color": "accent",
-      "overnight": true,
-      "enabled": true,
+      "category": "睡眠",
       "days": [
         1,
         2,
@@ -17,7 +16,8 @@
         6,
         0
       ],
-      "category": "睡眠"
+      "enabled": true,
+      "overnight": false
     },
     {
       "id": "r-1779033131686",
@@ -25,8 +25,7 @@
       "start": "23:00",
       "end": "23:59",
       "color": "green",
-      "overnight": true,
-      "enabled": true,
+      "category": "学习",
       "days": [
         1,
         2,
@@ -36,7 +35,8 @@
         6,
         0
       ],
-      "category": "学习"
+      "enabled": true,
+      "overnight": false
     },
     {
       "id": "r-1779034409031",
@@ -44,8 +44,7 @@
       "start": "07:00",
       "end": "07:30",
       "color": "green",
-      "overnight": true,
-      "enabled": true,
+      "category": "洗漱",
       "days": [
         1,
         2,
@@ -53,7 +52,8 @@
         4,
         5
       ],
-      "category": "洗漱"
+      "enabled": true,
+      "overnight": false
     },
     {
       "id": "r-1779034475297",
@@ -61,8 +61,7 @@
       "start": "08:30",
       "end": "10:00",
       "color": "red",
-      "overnight": false,
-      "enabled": true,
+      "category": "学习",
       "days": [
         1,
         2,
@@ -70,7 +69,8 @@
         4,
         5
       ],
-      "category": "学习"
+      "enabled": true,
+      "overnight": false
     },
     {
       "id": "r-1779034513830",
@@ -78,8 +78,7 @@
       "start": "10:00",
       "end": "11:30",
       "color": "orange",
-      "overnight": false,
-      "enabled": true,
+      "category": "工作",
       "days": [
         1,
         2,
@@ -87,7 +86,8 @@
         4,
         5
       ],
-      "category": "工作"
+      "enabled": true,
+      "overnight": false
     },
     {
       "id": "r-1779034551647",
@@ -95,8 +95,7 @@
       "start": "11:30",
       "end": "12:00",
       "color": "orange",
-      "overnight": false,
-      "enabled": true,
+      "category": "吃饭",
       "days": [
         1,
         2,
@@ -104,7 +103,8 @@
         4,
         5
       ],
-      "category": "吃饭"
+      "enabled": true,
+      "overnight": false
     },
     {
       "id": "r-1779034585781",
@@ -112,8 +112,7 @@
       "start": "12:00",
       "end": "13:30",
       "color": "red",
-      "overnight": true,
-      "enabled": true,
+      "category": "学习",
       "days": [
         1,
         2,
@@ -121,7 +120,8 @@
         4,
         5
       ],
-      "category": "学习"
+      "enabled": true,
+      "overnight": false
     },
     {
       "id": "r-1779034731014",
@@ -129,8 +129,7 @@
       "start": "13:30",
       "end": "17:30",
       "color": "orange",
-      "overnight": false,
-      "enabled": true,
+      "category": "工作",
       "days": [
         1,
         2,
@@ -138,7 +137,8 @@
         4,
         5
       ],
-      "category": "工作"
+      "enabled": true,
+      "overnight": false
     },
     {
       "id": "r-1779034763646",
@@ -146,8 +146,7 @@
       "start": "17:30",
       "end": "18:30",
       "color": "orange",
-      "overnight": false,
-      "enabled": true,
+      "category": "工作",
       "days": [
         1,
         2,
@@ -155,7 +154,8 @@
         4,
         5
       ],
-      "category": "工作"
+      "enabled": true,
+      "overnight": false
     },
     {
       "id": "r-1779034793096",
@@ -163,8 +163,7 @@
       "start": "18:30",
       "end": "19:00",
       "color": "green",
-      "overnight": false,
-      "enabled": true,
+      "category": "吃饭",
       "days": [
         1,
         2,
@@ -172,7 +171,8 @@
         4,
         5
       ],
-      "category": "吃饭"
+      "enabled": true,
+      "overnight": false
     },
     {
       "id": "r-1779034850446",
@@ -180,8 +180,7 @@
       "start": "19:00",
       "end": "20:00",
       "color": "red",
-      "overnight": false,
-      "enabled": true,
+      "category": "学习",
       "days": [
         1,
         2,
@@ -189,7 +188,8 @@
         4,
         5
       ],
-      "category": "学习"
+      "enabled": true,
+      "overnight": false
     },
     {
       "id": "r-1779034885546",
@@ -197,8 +197,7 @@
       "start": "20:00",
       "end": "21:00",
       "color": "green",
-      "overnight": false,
-      "enabled": true,
+      "category": "出行",
       "days": [
         1,
         2,
@@ -206,7 +205,8 @@
         4,
         5
       ],
-      "category": "出行"
+      "enabled": true,
+      "overnight": false
     },
     {
       "id": "r-1779034910412",
@@ -214,8 +214,7 @@
       "start": "21:00",
       "end": "22:00",
       "color": "red",
-      "overnight": false,
-      "enabled": true,
+      "category": "学习",
       "days": [
         1,
         2,
@@ -223,7 +222,8 @@
         4,
         5
       ],
-      "category": "学习"
+      "enabled": true,
+      "overnight": false
     },
     {
       "id": "r-1779034932029",
@@ -231,15 +231,16 @@
       "start": "22:30",
       "end": "23:00",
       "color": "red",
-      "overnight": true,
-      "enabled": true,
+      "category": "",
       "days": [
         1,
         2,
         3,
         4,
         5
-      ]
+      ],
+      "enabled": true,
+      "overnight": false
     },
     {
       "id": "r-1779037386949",
@@ -247,7 +248,7 @@
       "start": "07:30",
       "end": "08:30",
       "color": "accent",
-      "overnight": false,
+      "category": "出行",
       "days": [
         1,
         2,
@@ -255,8 +256,8 @@
         4,
         5
       ],
-      "category": "出行",
-      "enabled": true
+      "enabled": true,
+      "overnight": false
     },
     {
       "id": "r-1779037508182",
@@ -264,26 +265,7 @@
       "start": "22:00",
       "end": "22:30",
       "color": "accent",
-      "overnight": false,
-      "days": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        0
-      ],
       "category": "洗漱",
-      "enabled": true
-    },
-    {
-      "id": "r-1779038412141",
-      "activity": "测试",
-      "start": "02:27",
-      "end": "02:32",
-      "color": "accent",
-      "overnight": true,
       "days": [
         1,
         2,
@@ -293,9 +275,9 @@
         6,
         0
       ],
-      "category": "",
-      "enabled": true
+      "enabled": true,
+      "overnight": false
     }
   ],
-  "syncedAt": "2026-05-19T10:49:02.295Z"
+  "syncedAt": "2026-05-20T04:50:17.752Z"
 }
